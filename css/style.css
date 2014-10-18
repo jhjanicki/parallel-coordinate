@@ -3,9 +3,19 @@ html{
 }
 #main{
 margin-left: 2%;
-margin-top: 110px;
+margin-top: 190px;
 margin-bottom: 50px;	
 	
+}
+
+#pic{
+	position:absolute;
+	top:240px;
+	left:200px;
+	-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-ms-transition: all 1s ease;
+			transition: all 1s ease;
 }
 
 #wrapper{
@@ -79,7 +89,7 @@ margin-bottom: 50px;
 }
 
 .pcplot {
-	margin-top: 100px;
+	margin-top: 180px;
 	margin-left: 150px;
 }
 
@@ -114,7 +124,7 @@ margin-bottom: 50px;
 	width: 200px;
 	padding: 10px 10px 30px 10px;
 	margin-left: 780px;
-	margin-top: 300px;
+	margin-top: 370px;
 	border: 1px solid #999;
 	background-color: #eee;
 	position: absolute;
