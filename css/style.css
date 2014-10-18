@@ -1,0 +1,197 @@
+html{
+	overflow-y: inherit;
+}
+#main{
+margin-left: 2%;
+margin-top: 110px;
+margin-bottom: 50px;	
+	
+}
+
+#wrapper{
+	margin-top: 100px;
+}
+
+.counties{
+	fill: #fff;
+    stroke: #252525;
+    stroke-width: 0.5px;
+}
+
+.counties2{
+	fill: gray;
+    stroke: #ccc;
+    stroke-width: 1px;
+}
+
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.gratBackground{
+	fill: /* #D5E3FF */#f7f7f7;
+}
+
+.gratLines {
+	 fill: none;
+	 stroke: #999;
+	 stroke-width: 1px;
+ }
+ 
+ svg{
+	 position: absolute;
+ }
+ 
+ .infolabel {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	color: #fff;
+	background-color: #000;
+	border: solid thin #fff;
+	padding: 5px;
+}
+
+.infolabel h1 {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	line-height: 1em;
+	font-family: Helvetica neue;
+}
+
+.infolabel b {
+	float: left;
+}
+
+.labelName {
+	display: inline-block;
+	float: right;
+	margin: -25px 0px 0px 40px;
+	font-size: 1em;
+	font-weight: bold;
+	position: absolute;
+	font-family: Helvetica neue;
+}
+
+.pcplot {
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+.pcpBackground {
+	fill: #ccc;
+	opacity: 0.5;
+	stroke: #000;
+	stroke-width: 4px;
+}
+
+.pcpLines path {
+		fill: none;
+		stroke-width: 4px;
+		stroke: black;
+	}
+	
+.axes path {
+	fill: none;
+	stroke: #000;
+	stroke-opacity: 0.5;
+	stroke-linecap: round;
+}
+#text1{
+	/* text-shadow: 1px 1px 0px #283744; */
+	fill:black;
+	font-size: 20px;
+	font-family:'Ralyway', sans-serif;
+	text-align: center;
+}
+
+#legend {
+	width: 200px;
+	padding: 10px 10px 30px 10px;
+	margin-left: 780px;
+	margin-top: 300px;
+	border: 1px solid #999;
+	background-color: #eee;
+	position: absolute;
+	font-family: Helvetica neue;
+	text-align: center;
+	font-size: 14px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; 
+}
+
+.colorbox {
+	width: 50px;
+	height: 25px;
+}
+
+#legendColors {
+	float: left;
+	margin: 25px 10px 0 20px;
+}
+
+#legendScale {
+	margin-top: 10px;
+	float: left;
+}
+
+.legendNum {
+	margin-top: 5px;
+	padding: 3px;
+}
+
+#attributeName {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 14px;
+	font-family: Antenna,Helvetica,sans-serif;
+}
+
+
+/* page styling */
+				#title {
+					position:absolute;
+					left:20px;
+					top:5px;
+					float:left;
+				}
+				
+				#tag{
+					position:absolute;
+					left:20px;
+					top:130px;
+					float:left;
+					text-align: left;
+					font-size: 16px;
+					font-family: sans-serif;
+					margin: 0;
+					padding: 0;
+					line-height: 2px;
+				}
+				
+				
+				#tag h5{
+					margin-top: 0;
+					line-height: 0px;
+				}
+				
+				#copy{
+					position: absolute;
+					top:0px;
+					right: 20px;
+					font-family: sans-serif;
+				}
+				#copy span{
+					color:#eb7a69;
+					text-decoration: underline;
+				}
+				
+				
+
